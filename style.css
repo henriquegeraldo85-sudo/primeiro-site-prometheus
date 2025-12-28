@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #0f172a;
+  background-color: #0f172a; /* COR DO FUNDO */
   color: #e5e7eb;
   display: flex;
   align-items: center;
@@ -17,7 +17,7 @@ body {
 h1 {
   font-size: 3rem;
   margin-bottom: 10px;
-  color: #38bdf8;
+  color: #fbbf24; /* COR DO SOL(DA FORTE DO TITULO */
 }
 
 p {

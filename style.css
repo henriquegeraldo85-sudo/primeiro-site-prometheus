@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Inter, Helvetica, sans-serif;
   background-color: #0f172a; /* COR DO FUNDO */
   color: #e5e7eb;
   display: flex;
@@ -21,6 +21,31 @@ h1 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.6;
+  color: #e5e7eb;
 }
+
+
+.btn-cta {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 36px;
+
+  background-color: #facc15; /* cor do sol */
+  color: #0f172a;            /* azul escuro */
+  text-decoration: none;
+
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+  background-color: #fde047;
+  transform: translateY(-3px);
+}
+

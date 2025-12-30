@@ -1,45 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<!-- Define o conjunto de caracteres para aceitar acentos -->
+  <!-- Define o conjunto de caracteres para aceitar acentos -->
   <meta charset="UTF-8">
-<!-- Título que aparece na aba do navegador -->
+
+  <!-- Responsividade em celular -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título que aparece na aba do navegador -->
   <title>Prometheus</title>
 
-  <!-- Ligação com o arquivo de estilo -->
+  <!-- Fonte Inter (premium) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Conecta o HTML ao arquivo de estilos CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<!-- CONTAINER PRINCIPAL
-       Centraliza todo o conteúdo na tela -->
-  <div class="container">
-    <h1>Prometheus</h1>
-<!-- TEXTO INSTITUCIONAL / DESCRIÇÃO -->
-    <p>
-      Prometheus nasce para transformar dados em visão, tecnologia em estratégia
-  e conhecimento em poder real de decisão.
+
+  <!-- =========================
+       HERO / PRIMEIRA TELA
+       ========================= -->
+  <section class="hero">
+
+    <!-- Logo tipográfico -->
+    <h1 class="logo">PROMETHEUS</h1>
+
+    <!-- Frase principal -->
+    <p class="hero-text">
+      Transformando dados em visão, tecnologia em estratégia
+      e conhecimento em poder real de decisão.
     </p>
-<!-- BOTÃO DE AÇÃO (CTA)
-         href="#sobre" faz o botão rolar a página
-         até a seção com id="sobre" -->
-    <a href="#sobre" class="btn-cta">SAIBA MAIS</a>
-  </div>
-<!-- SEÇÃO "SOBRE"
-       Esta parte fica abaixo da primeira tela
-       e é acessada ao clicar no botão -->
-<section id="sobre" class="section-sobre">
-<!-- TÍTULO DA SEÇÃO -->
-  <h2>Sobre o Prometheus</h2>
-<!-- TEXTO EXPLICATIVO -->
-  <p>
-    Prometheus é um projeto focado em transformar dados em decisões estratégicas,
-    unindo tecnologia, análise e visão de negócios.
-  </p>
-</section>
 
+    <!-- Botão CTA com ação real -->
+    <a href="https://wa.me/5500000000000" target="_blank" class="btn-cta">
+      FALE CONOSCO
+    </a>
 
+    <!-- Botão secundário para scroll -->
+    <a href="#sobre" class="btn-secondary">
+      SAIBA MAIS
+    </a>
 
+  </section>
 
+  <!-- =========================
+       SEÇÃO SOBRE
+       ========================= -->
+  <section id="sobre" class="section">
+
+    <h2>Sobre o Prometheus</h2>
+
+    <p>
+      O Prometheus nasce com o objetivo de transformar dados brutos
+      em decisões estratégicas claras, usando tecnologia, análise
+      e visão de negócios para gerar vantagem competitiva.
+    </p>
+
+  </section>
+
+  <!-- =========================
+       SEÇÃO SERVIÇOS
+       ========================= -->
+  <section class="section dark">
+
+    <h2>O que fazemos</h2>
+
+    <ul class="services">
+      <li>Análise de dados e dashboards</li>
+      <li>Estruturação de indicadores</li>
+      <li>Automação de relatórios</li>
+      <li>Consultoria estratégica</li>
+    </ul>
+
+  </section>
+
+  <!-- =========================
+       SEÇÃO CONTATO
+       ========================= -->
+  <section class="section">
+
+    <h2>Contato</h2>
+
+    <p>
+      Entre em contato para saber como o Prometheus pode ajudar
+      sua empresa a tomar decisões melhores.
+    </p>
+
+    <a href="mailto:contato@prometheus.com" class="btn-cta">
+      ENVIAR E-MAIL
+    </a>
+
+  </section>
 
 </body>
 </html>

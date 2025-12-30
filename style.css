@@ -1,113 +1,118 @@
-/* Habilita rolagem suave ao clicar em links internos (#) */
-html {
-  scroll-behavior: smooth;
-}
-
 /* ============================
    ESTILO GERAL DO SITE
    ============================ */
 
+//* Scroll suave para links internos */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Estilo base do corpo da página */
 body {
   margin: 0; /* Remove margens padrão do navegador */
-
-/* Fonte principal do site */
+  
+  /* Fonte principal do site */
   font-family: 'Inter', Helvetica, sans-serif;
 
-/* Cor de fundo azul escuro */
-  background-color: #0f172a; /* COR DO FUNDO */
+  /* Cor de fundo azul escuro */
+  background-color: #0f172a;
 
-/* Cor padrão dos textos */
+  /* Cor padrão dos textos */
   color: #e5e7eb;
-
-/* Centraliza conteúdo vertical e horizontalmente */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-/* Altura total da tela */
-  height: 100vh;
 }
 
-/* Container que envolve o conteúdo principal */
-.container {
-  min-height: 100vh;          /* Ocupa a tela inteira */
+/* =========================
+   HERO
+   ========================= */
+.hero {
+  min-height: 100vh;
+  padding: 0 20px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  text-align: center; /* Centraliza textos */
-  max-width: 600px; /* Limita largura para leitura confortável */
-  margin: 0 auto;
-}
-
-
-/* TÍTULO PRINCIPAL (PROMETHEUS) */
-h1 {
-  font-size: 3.2rem; /* Tamanho grande para impacto */
-  font-weight: 800; /* Fonte bem forte */
-  letter-spacing: 1px; /* Espaçamento entre letras */
-  margin-bottom: 10px;
-  color: #fbbf24; /* COR DO SOL(DA FORTE DO TITULO */
-}
-
-/* PARÁGRAFOS */
-p {
-  font-size: 1.1rem; /* Tamanho confortável para leitura */
-  line-height: 1.6; /* Espaçamento entre linhas */
-  color: #e5e7eb;
-}
-
-
-/* ============================
-   BOTÃO DE AÇÃO (CTA)
-   ============================ */
-.btn-cta {
-  display: inline-block; /* Permite padding e margem */
-  margin-top: 30px;  /* Espaço acima do botão */
-  padding: 14px 36px; /* Tamanho do botão */
-
-  background-color: #facc15; /* cor do sol */
-  color: #0f172a;            /* azul escuro */ /* Cor do texto do botão */
-  text-decoration: none; /* Remove sublinhado do link */
-
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-
-  border-radius: 30px; /* Bordas arredondadas (visual premium) */
-  transition: all 0.3s ease; /* Animação suave */
-}
-
-/* Efeito ao passar o mouse no botão */
-.btn-cta:hover {
-  background-color: #fde047; /* Dourado mais claro */
-  transform: translateY(-3px); /* Botão sobe levemente */
-}
-
-/* ============================
-   SEÇÃO "SOBRE"
-   ============================ */
-.section-sobre {
-  padding: 80px 20px; /* Espaçamento interno */
-  background-color: #020617; /* Fundo ainda mais escuro */
   text-align: center;
 }
 
-/* Título da seção Sobre */
-.section-sobre h2 {
+/* Logo tipográfico */
+.logo {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #fbbf24;
+  margin-bottom: 20px;
+}
+
+/* Texto principal */
+.hero-text {
+  max-width: 700px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+/* =========================
+   BOTÕES
+   ========================= */
+.btn-cta {
+  background-color: #facc15;
+  color: #0f172a;
+  padding: 14px 36px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+  background-color: #fde047;
+  transform: translateY(-3px);
+}
+
+.btn-secondary {
+  color: #facc15;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* =========================
+   SEÇÕES
+   ========================= */
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section h2 {
   font-size: 2.2rem;
   color: #facc15;
   margin-bottom: 20px;
 }
 
-/* Texto da seção Sobre */
-.section-sobre p {
-  max-width: 700px; /* Limita largura do texto */
-  margin: 0 auto;  /* Centraliza horizontalmente */
+.section p {
+  max-width: 700px;
+  margin: 0 auto;
   font-size: 1.1rem;
-  color: #e5e7eb;
 }
 
+/* Fundo alternado */
+.section.dark {
+  background-color: #020617;
+}
+
+/* =========================
+   SERVIÇOS
+   ========================= */
+.services {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  margin: 12px 0;
+  font-size: 1.1rem;
+}
 

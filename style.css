@@ -1,118 +1,132 @@
 /* ============================
-   ESTILO GERAL DO SITE
+   CONFIGURAÇÕES GERAIS
    ============================ */
 
-//* Scroll suave para links internos */
+/* Scroll suave entre seções */
 html {
   scroll-behavior: smooth;
 }
 
-/* Estilo base do corpo da página */
+/* Corpo do site */
 body {
-  margin: 0; /* Remove margens padrão do navegador */
-  
-  /* Fonte principal do site */
-  font-family: 'Inter', Helvetica, sans-serif;
-
-  /* Cor de fundo azul escuro */
+  margin: 0;
+  font-family: Inter, Helvetica, sans-serif;
   background-color: #0f172a;
-
-  /* Cor padrão dos textos */
   color: #e5e7eb;
 }
 
-/* =========================
-   HERO
-   ========================= */
-.hero {
-  min-height: 100vh;
-  padding: 0 20px;
+/* ============================
+   HERO (TELA PRINCIPAL)
+   ============================ */
 
+.hero {
+  min-height: 100vh; /* ocupa tela inteira */
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
 
+/* Container central */
+.container {
   text-align: center;
+  max-width: 600px;
+  padding: 20px;
 }
 
-/* Logo tipográfico */
-.logo {
-  font-size: 3.5rem;
+/* Título principal */
+h1 {
+  font-size: 3.2rem;
   font-weight: 800;
-  letter-spacing: 2px;
-  color: #fbbf24;
-  margin-bottom: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  color: #fbbf24; /* cor do sol */
 }
 
-/* Texto principal */
-.hero-text {
-  max-width: 700px;
-  font-size: 1.2rem;
+/* Texto */
+p {
+  font-size: 1.1rem;
   line-height: 1.6;
-  margin-bottom: 40px;
 }
 
-/* =========================
-   BOTÕES
-   ========================= */
+/* ============================
+   BOTÃO CTA
+   ============================ */
+
 .btn-cta {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 36px;
+
   background-color: #facc15;
   color: #0f172a;
-  padding: 14px 36px;
-  border-radius: 30px;
   text-decoration: none;
+
+  font-size: 1rem;
   font-weight: 700;
-  margin: 10px;
+  letter-spacing: 1px;
+
+  border-radius: 30px;
   transition: all 0.3s ease;
 }
 
+/* Animação do botão */
 .btn-cta:hover {
   background-color: #fde047;
-  transform: translateY(-3px);
+  transform: translateY(-4px);
 }
 
-.btn-secondary {
-  color: #facc15;
-  text-decoration: none;
-  font-weight: 600;
-}
+/* ============================
+   SEÇÃO SOBRE
+   ============================ */
 
-/* =========================
-   SEÇÕES
-   ========================= */
-.section {
+.section-sobre {
   padding: 80px 20px;
+  background-color: #020617;
   text-align: center;
 }
 
-.section h2 {
+.section-sobre h2 {
   font-size: 2.2rem;
   color: #facc15;
   margin-bottom: 20px;
 }
 
-.section p {
+.section-sobre p {
   max-width: 700px;
   margin: 0 auto;
-  font-size: 1.1rem;
 }
 
-/* Fundo alternado */
-.section.dark {
-  background-color: #020617;
+/* ============================
+   SEÇÃO SERVIÇOS
+   ============================ */
+
+.section-servicos {
+  padding: 80px 20px;
+  text-align: center;
 }
 
-/* =========================
-   SERVIÇOS
-   ========================= */
-.services {
+.section-servicos h2 {
+  font-size: 2.2rem;
+  color: #facc15;
+  margin-bottom: 30px;
+}
+
+.section-servicos ul {
   list-style: none;
   padding: 0;
 }
 
-.services li {
-  margin: 12px 0;
+.section-servicos li {
+  margin-bottom: 12px;
   font-size: 1.1rem;
 }
 
+/* ============================
+   SEÇÃO CONTATO
+   ============================ */
+
+.section-contato {
+  padding: 80px 20px;
+  background-color: #020617;
+  text-align: center;
+}

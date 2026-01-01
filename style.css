@@ -1,132 +1,26 @@
-/* ============================
-   CONFIGURAÇÕES GERAIS
-   ============================ */
-
-/* Scroll suave entre seções */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Corpo do site */
 body {
   margin: 0;
-  font-family: Inter, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #0f172a;
   color: #e5e7eb;
-}
-
-/* ============================
-   HERO (TELA PRINCIPAL)
-   ============================ */
-
-.hero {
-  min-height: 100vh; /* ocupa tela inteira */
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 
-/* Container central */
 .container {
   text-align: center;
   max-width: 600px;
-  padding: 20px;
 }
 
-/* Título principal */
 h1 {
-  font-size: 3.2rem;
-  font-weight: 800;
-  letter-spacing: 1px;
+  font-size: 3rem;
   margin-bottom: 10px;
-  color: #fbbf24; /* cor do sol */
+  color: #38bdf8;
 }
 
-/* Texto */
 p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
-}
-
-/* ============================
-   BOTÃO CTA
-   ============================ */
-
-.btn-cta {
-  display: inline-block;
-  margin-top: 30px;
-  padding: 14px 36px;
-
-  background-color: #facc15;
-  color: #0f172a;
-  text-decoration: none;
-
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-
-  border-radius: 30px;
-  transition: all 0.3s ease;
-}
-
-/* Animação do botão */
-.btn-cta:hover {
-  background-color: #fde047;
-  transform: translateY(-4px);
-}
-
-/* ============================
-   SEÇÃO SOBRE
-   ============================ */
-
-.section-sobre {
-  padding: 80px 20px;
-  background-color: #020617;
-  text-align: center;
-}
-
-.section-sobre h2 {
-  font-size: 2.2rem;
-  color: #facc15;
-  margin-bottom: 20px;
-}
-
-.section-sobre p {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-/* ============================
-   SEÇÃO SERVIÇOS
-   ============================ */
-
-.section-servicos {
-  padding: 80px 20px;
-  text-align: center;
-}
-
-.section-servicos h2 {
-  font-size: 2.2rem;
-  color: #facc15;
-  margin-bottom: 30px;
-}
-
-.section-servicos ul {
-  list-style: none;
-  padding: 0;
-}
-
-.section-servicos li {
-  margin-bottom: 12px;
-  font-size: 1.1rem;
-}
-
-/* ============================
-   SEÇÃO CONTATO
-   ============================ */
-
-.section-contato {
-  padding: 80px 20px;
-  background-color: #020617;
-  text-align: center;
 }

@@ -20,12 +20,12 @@ body {
    ========================= */
 
 .header {
-  position: fixed; /* Fica fixo no topo */
-  top: 0;
-  width: 100%;
-  background: rgba(2, 6, 23, 0.8); /* Fundo escuro com transparência */
-  backdrop-filter: blur(8px);
-  z-index: 1000;
+ display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(6px);
 }
 
 .header-container {
@@ -46,7 +46,10 @@ body {
 }
 
 .logo img {
-  height: 36px;
+ height: 48px;          /* tamanho ideal para topo */
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px rgba(255, 200, 80, 0.4));
 }
 
 .logo span {

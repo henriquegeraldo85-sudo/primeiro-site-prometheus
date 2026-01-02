@@ -176,4 +176,13 @@ body {
   position: relative;
   z-index: 2;
 }
+.btn-cta {
+  background: linear-gradient(135deg, #f5c542, #d4a017);
+  color: #111;
+  padding: 14px 34px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 25px rgba(255, 200, 80, 0.4);
+}
 

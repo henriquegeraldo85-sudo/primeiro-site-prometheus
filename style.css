@@ -38,9 +38,10 @@ body {
 }
 
 .logo {
-  height: 56px;
+  height: 72px;
   width: auto;
   cursor: pointer;
+  margin-left: 20px;
 }
 
 /* MENU */

@@ -239,3 +239,83 @@ body {
     padding: 60px 30px;
   }
 }
+
+/* ============================
+   PÁGINAS DE LOGIN / REGISTRO
+   ============================ */
+
+.auth-body {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(2,6,23,0.85), rgba(2,6,23,0.85)),
+    url("golden-waves.jpg") center/cover no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-container {
+  background: rgba(2, 6, 23, 0.9);
+  border-radius: 18px;
+  padding: 48px 40px;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+
+  box-shadow: 0 0 60px rgba(250, 204, 21, 0.15);
+}
+
+.auth-logo {
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.auth-container h1 {
+  color: #facc15;
+  margin-bottom: 10px;
+}
+
+.auth-container p {
+  font-size: 0.95rem;
+  margin-bottom: 30px;
+  color: #cbd5f5;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+
+  border-radius: 10px;
+  border: none;
+  outline: none;
+
+  background: #020617;
+  color: #e5e7eb;
+}
+
+.auth-form input::placeholder {
+  color: #64748b;
+}
+
+.btn-cta.full {
+  width: 100%;
+}
+
+.auth-link {
+  display: block;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.auth-link a {
+  color: #facc15;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.auth-link a:hover {
+  text-decoration: underline;
+}
+

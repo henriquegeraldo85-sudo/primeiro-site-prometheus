@@ -34,6 +34,17 @@ body {
   z-index: 10;
 }
 
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
 .logo {
   height: 48px;
   width: auto;
@@ -87,8 +98,15 @@ body {
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 80px;
 }
+
+.hero-image img {
+  width: 520px;
+  max-width: 100%;
+}
+
 
 /* OVERLAY ESCURO PARA LEGIBILIDADE */
 .hero::before {
@@ -151,6 +169,23 @@ body {
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(251, 191, 36, 0.3);
 }
+
+.btn-primary {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  color: #0f172a;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+}
+
+
 
 /* ============================
    SEÇÃO SOBRE

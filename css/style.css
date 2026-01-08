@@ -1,9 +1,6 @@
 /* ============================
    CONFIGURAÇÕES GERAIS
    ============================ */
-body {
-  background: red !important;
-}
 
 
 
@@ -96,7 +93,7 @@ body {
 
 .hero {
   height: 100vh;
-  background-image: url("../assets/golden-waves.jpg"); /* sua imagem */
+  background-image: url("../ativos/golden-waves.jpg"); /* sua imagem */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -124,7 +121,7 @@ body {
 /* CONTEÚDO DO HERO */
 .hero-content {
   position: relative;
-  text-align: center;
+  text-align: left;
   max-width: 720px;
   padding: 20px;
 }
@@ -199,7 +196,7 @@ body {
    SEÇÃO SOBRE
    ============================ */
 
-.section-sobre {
+.section {
   padding: 100px 20px;
   background-color: #020617;
   text-align: center;
@@ -209,13 +206,13 @@ body {
   background: #020617;
 }
 
-.section-sobre h2 {
+.section h2 {
   font-size: 2.4rem;
   color: #fbbf24;
   margin-bottom: 24px;
 }
 
-.section-sobre p {
+.section p {
   max-width: 760px;
   margin: 0 auto 32px;
   font-size: 1.1rem;

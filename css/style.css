@@ -1,6 +1,11 @@
 /* ============================
    CONFIGURAÇÕES GERAIS
    ============================ */
+body {
+  background: red !important;
+}
+
+
 
 * {
   margin: 0;

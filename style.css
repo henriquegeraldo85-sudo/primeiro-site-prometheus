@@ -93,7 +93,7 @@ body {
 
 .hero {
   height: 100vh;
-  background-image: url("../ativos/golden-waves.jpg"); /* sua imagem */
+  background-image: url("golden-waves.jpg"); /* sua imagem */
   background-size: cover;
   background-position: center;
   position: relative;
